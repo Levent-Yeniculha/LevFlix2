@@ -1,17 +1,55 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LevFlix</title>
-  <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LevoFlix</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-
-  <p>LevFlix</p>
-
+    <header class="navbar">
+        <div class="logo">LevoFlix</div>
+        <nav>
+            <ul>
+                <li><a href="#">Topic1</a></li>
+                <li><a href="#">Topic2</a></li>
+                <li><a href="#">Topic3</a></li>
+                <li><a href="#">Topic4</a></li>
+            </ul>
+        </nav>
+        <div class="navbar-right">
+            <div class="search-box"> <input type="text" placeholder="Search..."> <button class="search-button"> <img
+                src="https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg"
+                alt="Search"> </button>
+            </div> 
+            <span class="material-icons icon bell">notifications</span> 
+                <img src="https://i.pravatar.cc/40" alt="User Avatar" class="avatar">
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Titanic</h1>
+            <div class="imdb-rating"> <img src="stars.png" alt="IMDB Rating"> <span>7.8/10</span> </div>
+            <div class="movie-details">
+                <p><strong>Director:</strong> James Cameron</p>
+                <p><strong>Stars:</strong> Leonardo DiCaprio, Kate Winslet</p>
+                <p><strong>Summary:</strong> A seventeen-year-old aristocrat falls in love with a kind but poor artist
+                    aboard the luxurious, ill-fated R.M.S. Titanic.</p>
+            </div> <a href="#" class="play-button"> <img src="play-icon.png" alt="Play"> Play Now </a>
+        </div>
+    </section>
+    <section class="movie-list">
+        <h2>Popular Movies</h2>
+        <div class="movies">
+            <div class="movie-card">Movie 1</div>
+            <div class="movie-card">Movie 2</div>
+            <div class="movie-card">Movie 3</div>
+            <div class="movie-card">Movie 4</div>
+        </div>
+    </section>
 </body>
 
 </html>
